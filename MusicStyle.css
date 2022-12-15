@@ -1,19 +1,18 @@
 
-li{
-  list-style-type: circle;
-}
 h1{
+
   text-align: center;
-  color: teal
- 
+  color: black;
+   text-shadow: 2px 2px 5px purple;
+ font-size: 70px;
 }
 li{
-  text-align: left
+  text-align: left;
 }
 table{border-collapse: collapse;
 }
 
-body{ background-color: lightblue;}
+body{ background-color: silver;}
  
  
   tr, td {
@@ -22,14 +21,16 @@ body{ background-color: lightblue;}
 }
 h2{
   text-align: center;
-    color: teal
+    color: black;
+   text-shadow: 2px 2px 5px purple;
+  font-size: 40px;
 }
 td{
-  text-align: center
+  text-align: center;
 }
 table {
   font-size: 20px;
-  width:800px
+  width:800px;
 }
 img {
   width: 500px;
@@ -52,10 +53,29 @@ a:link {
 }
 /* visited link */
 a:visited {
-  color: red;
+  color: black;
 }
   
 /* mouse over link */
 a:hover {
   color: blue;
+}
+nav{list-style-type:none;
+position:fixed;
+background-color:purple;
+width: 100%;
+top:0;
+left:0;}
+li{
+  display:inline;
+  padding: 15px;
+  float: right;
+}
+li:hover{
+ background-color:white;
+}
+a{
+  text-decoration:none;
+  color:black;
+  text-font:20
 }
